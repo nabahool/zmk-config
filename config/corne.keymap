@@ -22,10 +22,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&gresc    &kp Q  &kp W  &kp E           &kp R      &kp G       &kp Y          &kp U  &kp I      &kp O    &kp P     &kp LEFT_BRACKET
-&kp LALT  &kp S  &kp A  &kp D           &kp F      &kp T       &kp H          &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&mo 2     &kp Z  &kp X  &kp C           &kp V      &kp B       &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-                        &kp LEFT_SHIFT  &kp SPACE  &kp LCMD    &kp BACKSPACE  &mo 1  &kp ENTER
+&gresc     &kp Q  &kp W  &kp E           &kp R      &kp G       &kp Y          &kp U  &kp I      &kp O    &kp P     &kp LEFT_BRACKET
+&kp LALT   &kp S  &kp A  &kp D           &kp F      &kp T       &kp H          &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C           &kp V      &kp B       &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
+                         &kp LEFT_SHIFT  &kp SPACE  &kp LCMD    &kp BACKSPACE  &mo 1  &kp ENTER
             >;
         };
 
@@ -42,11 +42,11 @@
 &kp LC(TAB)  &kp N1  &kp N2  &kp N3  &kp N4             &kp N5    &kp N6    &kp N7    &kp N8  &kp N9     &kp N0     &kp RIGHT_BRACKET
 &trans       &trans  &trans  &trans  &trans             &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp EQUAL  &kp MINUS
 &trans       &trans  &trans  &trans  &trans             &trans    &trans    &trans    &trans  &trans     &trans     &trans
-                             &trans  &kp LA(BACKSLASH)  &trans    &trans    &trans    &trans
+                             &trans  &kp LA(BACKSLASH)  &trans    &trans    &trans    &mo 2
             >;
         };
 
-        layer_2 {
+        BT_LAYER {
             bindings = <
 &trans  &trans  &trans  &trans  &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1    &trans  &trans  &trans  &trans  &trans  &trans

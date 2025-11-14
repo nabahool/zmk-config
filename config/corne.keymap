@@ -9,6 +9,16 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        leftthumb2-rightthumb1--delete {
+            bindings = <&kp DELETE>;
+            key-positions = <37 39>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

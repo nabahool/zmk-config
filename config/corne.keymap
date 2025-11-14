@@ -22,8 +22,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            display-name = "Default Layer";
+        main {
+            display-name = "main";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
